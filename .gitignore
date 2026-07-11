@@ -1,0 +1,22 @@
+# Build artifacts
+*.so
+*.so.*
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Editor / OS
+*.swp
+.DS_Store
+
+# Embedded separate repos / tooling
+/libatme/
+
+# Compiled test/bench binaries
+*.o
+bpf_agent/trace
+bpf_agent/tracer.bpf.o
+photon_region/bench_region
+photon_region/demo_weston_repaint
+photon_region/test_region
+test/game_server
