@@ -73,8 +73,6 @@ A `const` buffer copied and sent stays clean (`UNTRUSTED: 0`).
 
 - `bpf_agent/` — experimental eBPF tracer (kernel-side `tracer.bpf.c` + loader).
 - `font_analysis/` — ATM/font reverse-engineering helpers.
-- `photon_region/` — occlusion-culling region allocator (weston/wlroots patches).
-- `libatme/` — separate ATM engine library (not part of DataTrace core).
 
 ### Requirements
 
