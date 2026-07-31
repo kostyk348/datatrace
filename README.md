@@ -81,4 +81,4 @@ A `const` buffer copied and sent stays clean (`UNTRUSTED: 0`).
 
 ### License
 
-MIT
+Apache 2.0
