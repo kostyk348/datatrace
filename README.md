@@ -1,4 +1,8 @@
-## DataTrace — LD_PRELOAD / eBPF Taint Tracker
+# DataTrace — LD_PRELOAD / eBPF Taint Tracker
+
+[![Release](https://img.shields.io/github/v/release/kostyk348/datatrace?sort=semver&color=blue)](https://github.com/kostyk348/datatrace/releases)
+[![License](https://img.shields.io/badge/license-Apache-2.0-green)](https://github.com/kostyk348/datatrace/blob/main/LICENSE)
+[![Last commit](https://img.shields.io/github/last-commit/kostyk348/datatrace?branch=main)](https://github.com/kostyk348/datatrace/commits/main)
 
 Trace how **untrusted** data (network `recvfrom`, file reads, argv, …) flows
 through a process and reach **sinks** (e.g. `sendto`). DataTrace instruments a
